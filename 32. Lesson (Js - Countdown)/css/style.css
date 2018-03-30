@@ -1,0 +1,64 @@
+#counter{
+	width: 600px;
+	margin: 100px auto;
+}
+#counter .setCounter div input{
+	padding: 16.67px;
+    color: darkslategrey;
+    font-weight: bold;
+    font-size: 45px;
+    width: 160px;
+    text-align: center;
+}
+#counter .setCounter div button{
+	width: 50%;
+    margin-top: 15px;
+    color: aliceblue;
+    padding: 8px 0;
+    font-size: x-large;
+    background: red;
+    border: navajowhite;
+    cursor: pointer;
+}
+#counter .setCounter div p{
+	width: calc(100% / 3);
+    float: left;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+	position: relative;
+	margin-top: 15px;
+}
+#counter .setCounter div p:first-child{
+	right: 9px;
+}
+#counter .setCounter div p:nth-child(2){
+    right: 6px;
+}
+#counter .setCounter div p:last-child{
+	right: 5px;
+}
+#counter .setCounter div button:last-child{
+	float: right;
+	background: black;
+}
+#counter .timer{
+	text-align: center;
+	display: block;
+	overflow: hidden;
+	display: none;
+}
+#counter .timer p{
+	color: darkslategrey;
+	font-weight: bold;
+	font-size: 70px;
+	display: inline-block;
+}
+#counter .timer p:first-child:after,#counter .timer p:nth-child(2):after{
+	content: ":"
+}
+#counter .timer div{
+	width: 600px;
+	height: 5px;
+	background: red;
+}

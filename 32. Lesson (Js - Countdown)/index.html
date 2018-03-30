@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="counter">
+		<div class="setCounter">
+			<div>
+				<input type="number" onclick="clearValue(this)" value="0">
+				<input type="number" onclick="clearValue(this)" value="0">
+				<input type="number" onclick="clearValue(this)" value="0">
+			</div>
+			<div>
+				<p>Hour</p>
+				<p>Minute</p>
+				<p>Second</p>
+			</div>
+			<div>
+				<button onclick="start()">Start</button>
+				<button onclick="reset()">Reset</button>
+			</div>
+		</div>
+		<div class="timer">
+			<p></p>
+			<p></p>
+			<p></p>
+			<div></div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
